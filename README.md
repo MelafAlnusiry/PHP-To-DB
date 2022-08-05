@@ -1,9 +1,9 @@
 # Robot-Control-Panel
 
-## What is a database?<br />
+## What is a database❓<br />
 A database is information that is set up for easy access, management and updating. Computer databases typically store aggregations of data records or files that contain information, such as sales transactions, customer data, financials and product information.
 
-## What are the components of a database?<br />
+## What are the components of a database❓<br />
 ### Hardware: 
 This is the physical device that database software runs on. Database hardware includes computers, servers and hard drives.
 ### Software
@@ -15,13 +15,13 @@ This is the programming language that controls the database. The programming lan
 ### Procedures
 These rules determine how the database works and how it handles the data
 
-## Application Programming Interface<br />
+## Application Programming Interface💻<br />
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
 
-## Hypertext Preprocessor
+## Hypertext Preprocessor📝
 is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML
 
-## WebPage View<br />
+## WebPage View🔍<br />
 <br />
 
 <img src="images/webpage.gif" width="500"><br />
