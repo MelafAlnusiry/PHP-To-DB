@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robotics Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<a href="#" class="button1">Stop  </a>
+<a href="#" class="button2">Left</a>
+<a href="#" class="button3">Right</a>
+<a href="#" class="button4">Backward</a>
+<a href="#" class="button5">Forward</a>
+
+
+    <div class="banner">
+        <div class="left-box">
+            <div class="wrapper"> 
+                <div class="logo">
+                    
+                </div>
+                
+                <div class="vertical-line"></div>
+
+              
+            </div>
+        </div>
+        <div class="right-box">
+           
+            <h2>CONTROL PANEL <br>MOVE ME!</h2>
+
+            <div class="robot">
+                <img src="https://pngimg.com/uploads/robot/robot_PNG63.png" alt="">
+                <h1>Robotics</h1>
+             
+            </div>
+
+            <div class="circle"></div>
+
+
+            <img src="img/volume.png" alt="" class="volume">
+        </div>
+    </div>
+    <div class="smallCursor"></div>
+    <div class="largeCursor"></div>
+    <script>
+        var smallCursor = document.querySelector(".smallCursor");
+        var largeCursor = document.querySelector(".largeCursor");
+        document.onmousemove = function(e){
+            smallCursor.style.left = (e.pageX - 5) + "px";
+            smallCursor.style.top = (e.pageY - 5) + "px";
+            smallCursor.style.display = "block";    
+
+            largeCursor.style.left = (e.pageX - 22) + "px";
+            largeCursor.style.top = (e.pageY - 22) + "px";
+            largeCursor.style.display = "block";                 
+        }
+    </script>
+</body>
+</html>
